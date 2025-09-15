@@ -1,0 +1,6 @@
+"Valve" := "Switch_on_off" AND "Button_Fill_tank";
+"Lamp_Fill_Tank" := "Switch_on_off" AND ("Button_Fill_tank" OR "Button_Lamp_Test");
+"Lamp_level1" := "Sensor_Level1" OR  ("Switch_on_off" AND "Button_Lamp_Test");
+"Lamp_level2" := ("Sensor_Level1" AND "Sensor_Level2") OR  ("Switch_on_off" AND "Button_Lamp_Test");
+"Lamp_level3" := ("Sensor_Level1" AND "Sensor_Level2"AND"Sensor_Level3")OR  ("Switch_on_off" AND "Button_Lamp_Test");
+"Lamp_level4" := ("Sensor_Level1" AND "Sensor_Level2"AND"Sensor_Level3"AND"Sensor_Level4") OR  ("Switch_on_off" AND "Button_Lamp_Test");
