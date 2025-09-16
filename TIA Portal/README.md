@@ -9,9 +9,9 @@ This project simulates an automated tank filling operation using Siemens TIA Por
 
 ## Simulation
 
+The dynamic changes in the outputs when the inputs are toggled in PLCSIM can be visulized [here](https://youtu.be/kniRlD8wU6w)
 
 
-The simulation can be viewed [here](https://youtu.be/kniRlD8wU6w)
 ## 🛠️ Tools Used
 
 
